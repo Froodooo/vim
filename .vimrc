@@ -172,7 +172,6 @@ execute pathogen#infect()
 " Ag
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
-
 "------------------------------------------------------------
 " Ranger
 let g:ranger_map_keys = 0
