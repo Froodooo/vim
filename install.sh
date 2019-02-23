@@ -1,13 +1,16 @@
 #!/bin/bash
 
 echo "Updating system"
-#sudo apt-get -y install 1> /dev/null
+sudo apt-get -y install 1> /dev/null
 
 echo "Installing latest version of Vim"
-#sudo apt-get -y install vim 1> /dev/null
+sudo apt-get -y install vim 1> /dev/null
 
 echo "Installing latest version of cURL"
-#sudo apt-get -y install curl 1> /dev/null
+sudo apt-get -y install curl 1> /dev/null
+
+echo "Installing Silver Searcher"
+sudo apt-get -y install silversearcher-ag
 
 echo "Copying .vimrc"
 cp .vimrc ~/
