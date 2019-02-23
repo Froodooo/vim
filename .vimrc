@@ -1,4 +1,4 @@
-j" URL: http://vim.wikia.com/wiki/Example_vimrc
+" URL: http://vim.wikia.com/wiki/Example_vimrc
 " Authors: http://vim.wikia.com/wiki/Vim_on_Freenode
 " Description: A minimal, but feature rich, example .vimrc. If you are a
 "              newbie, basing your first .vimrc on this file is a good choice.
@@ -165,10 +165,6 @@ command! JsonFormat %!python -m json.tool
 :command ElixirPry :normal i require IEx; IEx.pry<ESC>
  
 "------------------------------------------------------------
-" Language
-language en_US
-
-"------------------------------------------------------------
 " Pathogen
 execute pathogen#infect()
  
@@ -200,3 +196,4 @@ let g:indentLine_color_term = 240
 syntax enable
 set background=dark
 colorscheme solarized
+let g:airline_solarized_bg='dark'
